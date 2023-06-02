@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.button-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f2f2f2;
+  border: black;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.button-link-search {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #52e2f8;
+  border: black;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.button-link:hover {
+  background-color: #e0e0e0;
+}
+body {
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+ul{
+  font-family: Arial;
+  text-align: left;
+}
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.myButton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 50%);
+	background-color:#ea0d0d1f;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:12px;
+	padding:2px 6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+  }
+  
+.myButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.productForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formGroup {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  border-radius: 7px;
+  border: 1px solid #cccccc55;
+  width: 200px;
+}
+
+/* Estilos para el select */
+select {
+  padding: 5px;
+  border-radius: 7px;
+  border: 1px solid #cccccc55;
+  width: 200px;
+  appearance: none; /* Oculta el estilo nativo del select */
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Estilos para las opciones del select */
+select option {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Estilo para la opción por defecto */
+select option[disabled] {
+  color: #999999;
+}
